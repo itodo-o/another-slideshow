@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 Slideshow</title>
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Slideshow container start-->
+    <div class="slideshow-container">
+        <!--Slide show and images start -->
+        <div class="mySlides fade">
+            <div class="numbertext">1/4</div>
+            <img src = "images/original-23_2.jpg" >
+            <div class = "text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2/4</div>
+            <img src = "images/original-24_2.jpg" >
+            <div class = "text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3/4</div>
+            <img src = "images/original-25_2.jpg" >
+            <div class = "text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4/4</div>
+            <img src = "images/original-26_2.jpg" >
+            <div class = "text">Caption Text</div>
+        </div>
+        <!--Slide show and images end-->
+        <!--Next and previous buttons start-->
+        <a class ="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class ="next" onclick="plusSlides(1)">&#10095</a>
+        <!--Next and previous buttons end-->
+        <div class = "dots">
+        <span class= "dot" onClick="currentSlide(1)"></span>
+        <span class= "dot" onClick="currentSlide(2)"></span>
+        <span class= "dot" onClick="currentSlide(3)"></span>
+        <span class= "dot" onClick="currentSlide(4)"></span>
+    </div>
+    </div>
+    <br>
+    <!--Slideshow container end-->
+    <!--The dots/circles-->
+    
+    <script src = "index.js"></script>
+</body>
+</html>
